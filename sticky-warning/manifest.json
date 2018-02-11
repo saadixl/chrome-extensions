@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Sticky Warning",
+  "description": "This extension adds a red sticky alert on top of the window.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+
+  "permissions": [
+    "tabs"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["https://console.firebase.google.com/*"],
+      "js": ["jquery.js", "main.js"]
+    }
+  ]
+}
