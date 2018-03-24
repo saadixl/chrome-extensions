@@ -1,0 +1,1 @@
+This is a Chrome Extension I use to flag my production Firebase console. If you have two Firebase console like production and staging, it's possible that both of them are identical and only difference between them is in their project name. So avoid accidents, I use this extension to analyze the URL and show a red sticker on top of the window.
